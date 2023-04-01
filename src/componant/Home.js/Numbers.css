@@ -1,0 +1,13 @@
+.sectionNum{
+    background-color: #a82d49;
+    height: auto;
+    color: #fff;
+}
+.sectionNum .row{
+    padding-top: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+.sectionNum .row .col-lg-3{
+    margin-bottom: 2rem;
+}

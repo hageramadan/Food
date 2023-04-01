@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@400;500&display=swap');
+header{
+    background-image: url("./../images/3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    text-align: left;
+    height: auto;
+    overflow: hidden;
+    max-width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+}
+header .row{
+  margin: 50px 0px;
+}
+header h3{
+    color:#690b1fea; 
+    font-size: 48px;
+    width: 85%;
+    margin-bottom: 1rem;
+    line-height: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+header p{
+    color: #555555;
+    width: 80%;
+    margin: 2rem 0;
+}
+header button{
+    text-decoration: none;
+    color: #fff;
+    background-color: #a82d49;
+    border: 0;
+    margin:15px;
+    padding: .5rem 2.5rem;
+    font-size: 15px;
+    box-shadow: 5px 5px 10px #ddd;
+    font-weight: bold;
+    transition: all .4s ease-in-out;
+    border: 4px solid #a82d49;
+}
+header button:hover{
+    color: #a82d49;
+    background-color:#fff ;
+}
+
+header .sbtn{
+    color: #000;
+    background-color: #fff;
+    border: 4px solid #fff;
+}
+header .sbtn:hover{
+    color: #a82d49;
+    border: 4px solid #a82d49;
+}
+
+
+span{
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+
+
+
+
+/* foodimg */
+.food{
+    margin: 3rem 0;
+    padding: 1rem 0;
+    height: auto;
+}
+.foodimg{
+    width: 100%;
+    border-radius: 20px;
+}
+.food .info-food{
+    position: relative;
+    top: 60px;
+    width: 100%;
+}
+.food .info-food h2{
+    font-size: 33px;
+    width: 100%;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #501826;
+}
+.food .info-food p{
+    color: #555555;
+    width: 100%;
+    margin-bottom: 2rem;
+    font-size: 18px;
+}
+
+.food button,
+.cake button{
+    text-decoration: none;
+    color: #fff;
+    background-color: #a82d49;
+    border: 0;
+  
+    padding: .5rem 2.5rem;
+    font-size: 15px;
+    box-shadow: 5px 5px 10px #ddd;
+    font-weight: bold;
+    transition: all .4s ease-in-out;
+    border: 4px solid #a82d49;
+}
+.food button:hover,
+.cake button:hover{
+    color: #a82d49;
+    background-color:#fff ;
+}
+
+.cake{
+    padding: 2rem 0;
+}
+.cake h2{
+    color: #5c202f;
+    font-size: 35px;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+
+}
+.cake p{
+    color: #555555;
+    margin-bottom: 8px;
+    line-height: 1.8rem;
+ 
+}
+.cake button{
+    margin-top: 1.5rem;
+}
+
+.cake .material-icons{
+    font-size: 25px;
+    font-weight: bold;
+    color: #a82d49;
+    margin-right: 5px;
+
+}
+/* donat */
+.donat{
+    background-image: url('./../images/back1.jpg');
+    background-size:cover;
+    background-position-y:center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 5rem 0;
+    height: auto;
+    margin-bottom: 2rem;
+}
+.donat h2{
+    font-size: 35px;
+    color: #a82d49;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    margin-left: 18%;
+    margin-right:18%;
+}
+.donat p{
+    color: #686868;
+    margin-left: 20%;
+    margin-right:20%;
+    margin-bottom:3.5rem;
+    font-size: 18px;
+}
+.donat button{
+    border: 0;
+    color: #000;
+    background: transparent;
+    margin-bottom: 4rem;
+}
+.donat button:hover{
+    color: #a82d49;
+}
+.donat .material-icons{
+    margin-right: 2px;
+    position: relative;
+    top: 6px;
+}
+
+/* faq */
+
+.faq{
+    margin: 5rem 0;
+
+}
+
+.faq h1{
+    text-align: center;
+    margin: 5rem 0;
+    color: #5c202f;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.faq .row .col-lg-6{
+    margin: 2rem 0;
+}
+
+.faq .row .col-lg-6 p{
+    color: #686868;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.faq .row .col-lg-6 h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: #501826;
+}
+.faq .material-icons{
+    color: #a82d49;
+}
+
+
+/* static background */
+
+.sback{
+    margin-bottom: 2rem;
+    padding: 5rem 0;
+    background: url("./../images/back2.jpeg") no-repeat fixed center;
+    background-size: cover;
+    /* background-position-y: -150%; */
+    color: #fff;
+}
+.sback h3{
+    font-size: 35px;
+    font-weight: bold;
+}
+.sback button,
+.subs button{
+    text-decoration: none;
+    color: #fff;
+    background-color: #a82d49;
+    border: 0;  
+    padding: .4rem 2.5rem;
+    font-size: 15px;
+    font-weight: bold;
+    transition: all .4s ease-in-out;
+    border: 4px solid #a82d49;
+    font-size: 18px;
+}
+.sback button:hover{
+    color: #a82d49;
+    background-color:transparent;
+}
+
+
+/* subscrip */
+.subs{
+    text-align: center;
+    margin: 5rem 0;
+
+}
+
+.subs button:hover{
+    color: #a82d49;
+    background-color:transparent;
+
+}
+ 
+.subs input{
+    padding: 10px 30px;
+    margin-bottom: 1rem;
+    border: 2px solid #6666;
+    width: 100%;
+}
+
+.subs button{
+    text-decoration: none;
+    color: #fff;
+    background-color: #a82d49;
+    border: 0;
+    padding: .5rem 2.5rem;
+    font-size: 15px;
+    box-shadow: 5px 5px 10px #ddd;
+    font-weight: bold;
+    transition: all .4s ease-in-out;
+    border: 4px solid #a82d49;
+    max-width: 100%;
+}
+
+.subs h2{
+    margin: 1rem 0;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: #5c202f;
+    font-weight: bold;
+}
+.subs p{
+    color: #616161;
+    margin-bottom: 2rem;
+}
+
+/* footer */
+
+footer{
+    padding: 5rem;
+    background-color: #a82d49;
+    color: #fff;
+    text-align: center;
+}
+
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    display: inline-block;
+    color: #fff;
+}
+footer ul li a{
+    color: #fff;
+    margin: 1rem 1.5rem;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 0;
+}
+footer ul li a:hover{
+    color: #fff;
+   
+}
+
+footer p{
+    font-size: 14px;
+}
